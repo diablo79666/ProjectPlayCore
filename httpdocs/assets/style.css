@@ -1,0 +1,76 @@
+/* ============================================================================
+   ProjectPlayCore – Globales Basis-Stylesheet (für Backend, User, Frontend)
+   ============================================================================ */
+
+:root{
+  --bg:#0f1216;       /* dunkler Hintergrund für Admin */
+  --fg:#e8eef4;       /* Standard-Text */
+  --card:#151b22;     /* Karten-Hintergrund */
+  --brand:#00aaff;    /* Akzentfarbe */
+  --muted:#8aa0b2;    /* Sekundärtext */
+  --ok:#27ae60;
+  --warn:#f39c12;
+  --err:#e74c3c;
+  --bd:#22303c;       /* Standard-Grenze */
+}
+
+*{box-sizing:border-box}
+
+html,body{
+  margin:0; padding:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,Helvetica,sans-serif;
+  background:var(--bg); color:var(--fg);
+}
+
+.container{max-width:1100px;margin:0 auto;padding:28px}
+
+.header{
+  display:flex;align-items:center;justify-content:space-between;
+  margin:8px 0 20px;
+}
+
+.brand{font-size:22px;font-weight:700;color:var(--brand);margin:0}
+
+.nav{display:flex;gap:10px;flex-wrap:wrap}
+.nav a{
+  display:inline-block;padding:8px 12px;border-radius:8px;
+  background:transparent;border:1px solid var(--bd);color:var(--fg);
+  text-decoration:none
+}
+.nav a:hover{border-color:var(--brand);color:var(--brand)}
+
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.col-12{grid-column:span 12}
+.col-6{grid-column:span 6}
+@media (max-width:900px){
+  .col-6{grid-column:span 12}
+}
+
+.card{
+  background:var(--card);border:1px solid var(--bd);
+  border-radius:12px;padding:16px
+}
+
+.h1{font-size:22px;margin:0 0 10px;color:var(--brand)}
+.h2{font-size:18px;margin:0 0 8px}
+.p{margin:6px 0;color:var(--muted)}
+
+.button{
+  display:inline-block;padding:8px 12px;border-radius:8px;
+  background:var(--brand);color:#001018;text-decoration:none;border:0
+}
+.button:hover{filter:brightness(1.05)}
+
+.kpi{display:flex;align-items:baseline;gap:8px}
+.kpi .v{font-size:28px;font-weight:700}
+.kpi.ok .v{color:var(--ok)}
+.kpi.warn .v{color:var(--warn)}
+.kpi.err .v{color:var(--err)}
+
+.table{width:100%;border-collapse:collapse;margin-top:6px}
+.table th,.table td{padding:8px;border-top:1px solid var(--bd);text-align:left}
+.table th{color:var(--muted);font-weight:600}
+
+.footer{margin-top:24px;color:var(--muted);font-size:13px}
+.link{color:var(--brand);text-decoration:none}
+.link:hover{text-decoration:underline}

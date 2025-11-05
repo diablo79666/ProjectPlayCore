@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.1.0",
+  "description": "Hello-Modul: Beispiel für Begrüßungs- und Statusfunktionen (dezentrale Admin-Struktur).",
+  "enabled": true,
+  "admin": [
+    {
+      "title": "Hello – Einstellungen",
+      "href": "/backend/modules/hello/admin.php?action=settings",
+      "group": "Demo",
+      "cap": "view_admin",
+      "order": 100
+    },
+    {
+      "title": "Hello – Ping-Test",
+      "href": "/backend/modules/hello/controller.php?action=ping",
+      "group": "Demo",
+      "cap": "view_admin",
+      "order": 110
+    }
+  ]
+}

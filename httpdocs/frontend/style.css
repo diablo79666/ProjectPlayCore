@@ -1,0 +1,37 @@
+/* ============================================================================
+   ProjectPlayCore Frontend Stylesheet
+   ========================================================================= */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+header {
+  background: #005bbb;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,0,0,.1);
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 12px;
+  color: #777;
+}
+a {
+  color: #005bbb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

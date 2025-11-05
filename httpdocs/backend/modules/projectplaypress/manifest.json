@@ -1,0 +1,7 @@
+{
+  "name": "projectplaypress",
+  "version": "1.1.0",
+  "enabled": true,
+  "description": "ProjectPlayPress – Seitenverwaltung (CMS-Light) mit Admin-UI und Renderer-Hook",
+  "author": "ProjectPlayCore + ChatGPT"
+}

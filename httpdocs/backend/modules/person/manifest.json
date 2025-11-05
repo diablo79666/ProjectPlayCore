@@ -1,0 +1,16 @@
+{
+  "name": "person",
+  "version": "1.1.0",
+  "enabled": true,
+  "description": "Privates Personenprofil (KYC-abhängig: editierbar bei KYC=aus, gesperrt bei KYC=an).",
+  "author": "ProjectPlayCore",
+  "admin": [
+    {
+      "title": "Privates Profil",
+      "href": "/backend/modules/person/controller.php?action=index",
+      "group": "Benutzer",
+      "cap": "view_admin",
+      "order": 100
+    }
+  ]
+}

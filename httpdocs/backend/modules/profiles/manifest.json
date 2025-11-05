@@ -1,0 +1,23 @@
+{
+  "name": "profiles",
+  "version": "1.1.0",
+  "enabled": true,
+  "description": "Eltern- und Kinderprofile inkl. Richtlinien (KYC/Alterslogik). Dezentralisiert, abschaltbar über Manifest.",
+  "author": "ProjectPlayCore",
+  "admin": [
+    {
+      "title": "Profile – Übersicht",
+      "href": "/backend/modules/profiles/admin.php?action=index",
+      "group": "Benutzer",
+      "cap": "view_admin",
+      "order": 100
+    },
+    {
+      "title": "Profile – Kind hinzufügen",
+      "href": "/backend/modules/profiles/admin.php?action=child_add",
+      "group": "Benutzer",
+      "cap": "view_admin",
+      "order": 110
+    }
+  ]
+}
