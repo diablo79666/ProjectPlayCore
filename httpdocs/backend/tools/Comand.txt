@@ -1,5 +1,0 @@
-https://www.projectplaycore.de/backend/tools/whoami.php
-
-https://www.projectplaycore.de/backend/tools/grant_self_parent_admin.php
-
-ttps://www.projectplaycore.de/backend/tools/migrations_status.php

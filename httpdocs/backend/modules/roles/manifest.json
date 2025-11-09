@@ -1,7 +1,0 @@
-{
-  "name": "roles",
-  "version": "1.0.0",
-  "enabled": true,
-  "description": "Rollen- & Capability-System (admin/editor/user)",
-  "author": "ProjectPlayCore + ChatGPT"
-}

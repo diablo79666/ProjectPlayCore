@@ -1,2 +1,0 @@
-<?php
-// uicore – Manifest genügt.

@@ -1,7 +1,0 @@
-{
-  "name": "status",
-  "version": "1.0.0",
-  "enabled": true,
-  "description": "Systemstatus: PHP/DB/Storage/Logs-Checks im Admin.",
-  "author": "ProjectPlayCore + ChatGPT"
-}
