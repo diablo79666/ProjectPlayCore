@@ -1,0 +1,15 @@
+{
+  "service": "identity",
+  "version": "1.0.0",
+  "enabled": true,
+  "description": "Identity-Modul – KYC / Identitätsprüfung und Provider-Verwaltung.",
+  "admin": [
+    {
+      "title": "Identity Verwaltung",
+      "href": "/backend/modules/identity/admin.php",
+      "group": "System",
+      "cap": "view_admin",
+      "order": 30
+    }
+  ]
+}

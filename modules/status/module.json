@@ -1,0 +1,16 @@
+{
+  "service": "status",
+  "version": "1.0.0",
+  "enabled": true,
+  "description": "Status-Modul – Anzeige und Überwachung von Serverstatus, Online-Spielern und Systemzuständen.",
+  "author": "ProjectPlayCore + ChatGPT",
+  "admin": [
+    {
+      "title": "Serverstatus",
+      "href": "/backend/modules/status/admin.php",
+      "group": "Monitoring",
+      "cap": "view_admin",
+      "order": 35
+    }
+  ]
+}

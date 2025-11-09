@@ -1,0 +1,15 @@
+{
+  "service": "roles",
+  "version": "1.0.0",
+  "enabled": true,
+  "description": "Rollenverwaltung (RBAC) – Rollen, Berechtigungen, Zuweisungen.",
+  "admin": [
+    {
+      "title": "Rollenverwaltung",
+      "href": "/backend/modules/roles/admin.php",
+      "group": "System",
+      "cap": "manage_roles",
+      "order": 20
+    }
+  ]
+}

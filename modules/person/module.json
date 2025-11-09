@@ -1,0 +1,16 @@
+{
+  "service": "person",
+  "version": "1.0.0",
+  "enabled": true,
+  "description": "Personenmodul – Verwaltung persönlicher Daten, Profilinformationen und Identitätszuordnung.",
+  "author": "ProjectPlayCore + ChatGPT",
+  "admin": [
+    {
+      "title": "Personenverwaltung",
+      "href": "/backend/modules/person/admin.php",
+      "group": "Benutzer",
+      "cap": "view_admin",
+      "order": 20
+    }
+  ]
+}

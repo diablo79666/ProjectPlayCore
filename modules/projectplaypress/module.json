@@ -1,0 +1,16 @@
+{
+  "service": "projectplaypress",
+  "version": "1.0.0",
+  "enabled": true,
+  "description": "ProjectPlayPress – Inhaltsverwaltungssystem für Nachrichten, Blogbeiträge und Community-Artikel.",
+  "author": "ProjectPlayCore + ChatGPT",
+  "admin": [
+    {
+      "title": "Inhalte verwalten",
+      "href": "/backend/modules/projectplaypress/admin.php",
+      "group": "System",
+      "cap": "view_admin",
+      "order": 30
+    }
+  ]
+}

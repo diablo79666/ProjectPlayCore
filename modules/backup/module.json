@@ -1,0 +1,22 @@
+{
+  "service": "backup",
+  "version": "1.1.0",
+  "enabled": true,
+  "description": "Backup-Modul v1.1 – Auto/Time/Manual-Modi, Warnmeldungen & Vorschau mit Container-Integration.",
+  "admin": [
+    {
+      "title": "Backup Einstellungen",
+      "href": "/backend/modules/backup/admin.php?action=settings",
+      "group": "System",
+      "cap": "manage_modules",
+      "order": 100
+    },
+    {
+      "title": "Backup Vorschau",
+      "href": "/backend/modules/backup/admin.php?action=preview",
+      "group": "System",
+      "cap": "view_admin",
+      "order": 110
+    }
+  ]
+}
